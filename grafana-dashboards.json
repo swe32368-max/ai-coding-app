@@ -1,0 +1,51 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "" ,
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Threats",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "dashboards": [
+    {
+      "title": "Application Performance Monitoring",
+      "type": "basic",
+      "uid": "app-perf-monitor",
+      "panels": [
+        {
+          "title": "CPU Usage",
+          "type": "graph",
+          "targets": [
+            {
+              "target": "CPU Usage"
+            }
+          ]
+        },
+        {
+          "title": "Memory Usage",
+          "type": "graph",
+          "targets": [
+            {
+              "target": "Memory Usage"
+            }
+          ]
+        },
+        {
+          "title": "Request Latency",
+          "type": "graph",
+          "targets": [
+            {
+              "target": "Request Latency"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
